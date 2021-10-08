@@ -1,5 +1,6 @@
 {
   "name": "react-sample",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,10 +13,12 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "react-start": "react-scripts start",
+    "react-build": "BUILD_PATH='./resources' react-scripts build",
+    "react-test": "react-scripts test --env=jsdom",
+    "react-eject": "react-scripts eject",
+    "start": "yarn react-build && neu run",
+    "build": "yarn react-build && neu build"
   },
   "eslintConfig": {
     "extends": [
