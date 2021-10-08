@@ -1,22 +1,44 @@
+# Neutralino React App Boilerplate
 
---- Project ---
 Neutralinojs binaries: v2.8.0
 Neutralinojs client: v1.5.0
 
+## Get started
 
-For run this project Neutralinojs + React
+First you need to install neu cli globally. Learn more about [Neutralino](https://neutralino.js.org/docs/).
 
 ```
+npm install -g @neutralinojs/neu
+# or
+yarn global add @neutralinojs/neu 
+```
+
+You can get started with this project with following command.
+
+```
+npx degit alger23/neutralinojs-react-boilerplate my-app
+```
+
+Then run 
+
+`cd ./my-app`
+
+and install dependencies
+
+```
+#restore neutralinojs files
 neu update
+
+# install dependencies 
 yarn install
-yarn start
-```
-
-or
-
-```
-neu update
+# or 
 npm install
+```
+
+Then start 
+```
+yarn start
+# or 
 npm start
 ```
 
@@ -32,7 +54,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### `yarn react-start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -40,12 +62,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `yarn react-test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `yarn react-build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -55,7 +77,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+### `yarn react-eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -91,6 +113,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `yarn build` fails to minify
+### `yarn react-build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
