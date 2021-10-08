@@ -1,3 +1,14 @@
+For run this project Neutralinojs + React
+
+```
+neu update
+yarn install
+yarn start
+```
+
+Other scripts look `package.json`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
