@@ -1,3 +1,9 @@
+
+--- Project ---
+Neutralinojs binaries: v2.8.0
+Neutralinojs client: v1.5.0
+
+
 For run this project Neutralinojs + React
 
 ```
@@ -5,6 +11,15 @@ neu update
 yarn install
 yarn start
 ```
+
+or
+
+```
+neu update
+npm install
+npm start
+```
+
 
 Other scripts look `package.json`
 
