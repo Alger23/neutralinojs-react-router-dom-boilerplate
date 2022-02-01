@@ -24,22 +24,27 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
-    <script src="%PUBLIC_URL%/js/neutralino.js"></script>
-    <script src="%PUBLIC_URL%/js/main.js"></script>
+    <title>NeutralinoJs React-app</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="neutralinoapp">
+      <h1>NeutralinoJs</h1>
+      <div id="info"></div>
+      <br/>
+      <div>
+        <a href="#" onclick="openDocs();">Docs</a> &middot;  
+        <a href="#" onclick="openTutorial();">Tutorial</a>
+      </div>
+    </div>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <!-- Neutralino.js client. This file is gitignored, 
+        because `neu update` typically downloads it.
+        Avoid copy-pasting it. 
+        -->
+        <script src="js/neutralino.js"></script>
+        <!-- Your app's source files -->
+        <script src="js/main.js"></script>
   </body>
 </html>
