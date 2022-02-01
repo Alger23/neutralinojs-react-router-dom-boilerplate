@@ -21,7 +21,7 @@ yarn global add @neutralinojs/neu
 You can get started with this project with following command.
 
 ```
-npx degit alger23/neutralinojs-react-boilerplate my-app
+npx degit alger23/neutralinojs-react-router-dom-boilerplate my-app
 ```
 
 Then run 
